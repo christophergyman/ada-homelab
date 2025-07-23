@@ -31,7 +31,7 @@ Here’s a breakdown of what I’ve built and manage within my homelab:
 - CI/CD with GitHub Actions for updates
 
 ### 📚 Ebook Repository
-- Hosting my [personal website](https://cgym.dev) from within the lab
+- Hosting my [Port Alexandria](https://portalexandria.net/) from within the lab
 - Organised self-hosted digital library
 - Accessible via internal web UI and e-reader sync
 - Full offline support
