@@ -48,7 +48,7 @@ Here’s a breakdown of what I’ve built and manage within my homelab:
 - Closed intranet page only accessable inside of the network
 - Built for iphone homescreen compatability 
 
-![Ada-Homepage](images/ada-homepage)
+![Ada-Homepage](images/ada-homepage.png)
 
 
 ---
