@@ -45,10 +45,10 @@ Here’s a breakdown of what I’ve built and manage within my homelab:
 
 ### 🌍 Ada Homepage 
 - Custom nginx docker server running a homepage for useful links
-- Closed intranet page only accessable inside of the network
-- Built for iphone homescreen compatability 
+- Closed intranet page only accessibleinside of the network
+- Built for iphone homescreen 
 
-![Ada-Homepage](images/ada-homepage.png)
+![Ada-Homepage](images/ada-homepage-screenshot.png)
 
 
 ---
