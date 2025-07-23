@@ -1,4 +1,4 @@
-# 🏠 My Homelab
+# 🏠 Ada Homelab
 
 Welcome to my homelab showcase! This repository is less about code and more about the systems and tools I've set up to manage my personal tech infrastructure. It's a space where I experiment, optimise, and learn — all while making my digital life more private, efficient, and enjoyable.
 
@@ -7,14 +7,14 @@ Welcome to my homelab showcase! This repository is less about code and more abou
 Here’s a breakdown of what I’ve built and manage within my homelab:
 
 ### 🧠 System Monitoring
-- Multi-container monitoring using **Prometheus**, **Grafana**, and **cAdvisor**
+- Multi-container monitoring using **[Beszel](https://beszel.dev/)**, **[Docker Compose](https://docs.docker.com/compose/)**
 - Real-time metrics across all services
 - Custom dashboards for CPU, memory, disk, and container health
 
 ![Monitoring Screenshot](images/monitoring-dashboard.png)
 
 ### 📱 Device Management
-- Centralised management for all personal tech devices (laptops, phones, Raspberry Pis, etc.)
+- Centralised management for all personal tech devices (laptops, phones, Raspberry Pis, etc.) **[Tailscale](https://tailscale.com/)**
 - Automated patching, backups, and configuration sync
 
 ![Device Management Screenshot](images/device-management.png)
@@ -25,35 +25,22 @@ Here’s a breakdown of what I’ve built and manage within my homelab:
 - Internal domain names for all local services
 - DNS-based VPN routing and filtering
 
-![DNS Dashboard Screenshot](images/dns-dashboard.png)
-
-### 📤 Local File Sharing (AirDrop Clone)
-- Peer-to-peer file transfer across devices
-- Cross-platform support (iOS/Android/macOS/Linux)
-- Web-based interface for ease of use
-
-![AirDrop Clone Screenshot](images/airdrop-clone.png)
-
 ### 🌍 Web Hosting
-- Hosting my [personal website](https://example.com) from within the lab
-- HTTPS via internal reverse proxy (Caddy / Nginx)
+- Hosting my [personal website](https://cgym.dev) from within the lab
+- HTTPS via internal reverse proxy (Nginx, Docker)
 - CI/CD with GitHub Actions for updates
 
-![Website Screenshot](images/personal-website.png)
-
 ### 📚 Ebook Repository
-- Organised self-hosted digital library (Calibre / Komga / Kavita)
+- Hosting my [personal website](https://cgym.dev) from within the lab
+- Organised self-hosted digital library
 - Accessible via internal web UI and e-reader sync
 - Full offline support
 
-![Ebook Library Screenshot](images/ebook-repo.png)
 
 ### 🎬 Media Center
 - Fully offline video downloading and streaming
 - Self-hosted media centre with Plex / Jellyfin
 - Automated downloads and metadata scraping
-
-![Media Center Screenshot](images/media-center.png)
 
 ---
 
@@ -61,12 +48,12 @@ Here’s a breakdown of what I’ve built and manage within my homelab:
 
 | Area              | Tools Used                             |
 |-------------------|----------------------------------------|
-| Monitoring        | Prometheus, Grafana, cAdvisor          |
-| DNS & Networking  | Pi-hole / AdGuard, CoreDNS             |
-| File Sharing      | Snapdrop / Magic Wormhole              |
+| Monitoring        | Beszel                                 |
+| DNS & Networking  | Cloudflare Custom DNS, Tailscale,      |
+| File Sharing      | Taildrop                               |
 | Media             | Jellyfin, qBittorrent, yt-dlp          |
-| Hosting           | Caddy / Nginx, Docker, GitHub Actions  |
-| Device Mgmt       | Ansible, Tailscale, Syncthing          |
+| Hosting           | Nginx, Docker, GitHub Actions          |
+| Device Mgmt       | Tailscale                              |
 
 ---
 
@@ -100,7 +87,6 @@ All screenshots are available in the [`/images`](./images) directory.
 
 This repo mainly contains:
 - 📸 Screenshots
-- 📝 Config snippets
 - 📚 Documentation on each component (coming soon)
 
 ---
@@ -115,8 +101,8 @@ This is a personal project, but feel free to open an issue or suggest improvemen
 
 If you're interested in discussing homelabs, automation, or want help building your own setup:
 
-- Email: `you@example.com`
-- Website: [https://example.com](https://example.com)
+- Email: `christophergayiuman@gmail.com`
+- Website: [https://cgym.dev](https://cgym.dev)
 
 ---
 
