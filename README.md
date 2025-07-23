@@ -42,6 +42,15 @@ Here’s a breakdown of what I’ve built and manage within my homelab:
 - Self-hosted media centre with Plex / Jellyfin
 - Automated downloads and metadata scraping
 
+
+### 🌍 Ada Homepage 
+- Custom nginx docker server running a homepage for useful links
+- Closed intranet page only accessable inside of the network
+- Built for iphone homescreen compatability 
+
+![Ada-Homepage](images/ada-homepage.png)
+
+
 ---
 
 ## 🧰 Tech Stack
